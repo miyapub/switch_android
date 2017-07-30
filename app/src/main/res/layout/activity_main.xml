@@ -22,8 +22,21 @@
             android:layout_weight="1"
             android:padding="10dp"
             android:text="台灯"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="115dp" />
+            />
+
+        <TextView
+            android:id="@+id/ip"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
